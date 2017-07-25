@@ -237,12 +237,35 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (max-width: 980px) {
 
-}
 @media only screen and (max-width: 768px) {
+    .sidebar {
+      float: left;
+      max-width: 100%;
+    }
+    .auth-image {
+      width: 50%;
+    }
 
 }
 @media only screen and (max-width:640px) {
-  
+  .sidebar {
+    float: left;
+    max-width: 100%;
+  }
+  .main-section{
+    max-width: 100%;
+  }
+  .auth-image {
+    width: 100%;
+  }
+  #logo {
+    width: 100%;
+  }
+  /* question: how do I center this? */
+  #masthead {
+    position: absolute;
+    width: 100%;
+  }
+
 }
